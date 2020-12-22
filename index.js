@@ -5,3 +5,11 @@
 // better naming
 var myButton = document.getElementById('btn');
 console.log(myButton);
+
+// make button do something
+
+myButton.addEventListener('click', function () {
+  // console.log('button was clicked');
+  // change the background of the button to red
+  myButton.style.background = "red";
+});
