@@ -34,14 +34,36 @@ const headerText = document.getElementById('header-text');
 
 // add one line make button text 2
 
-var counter = 0;
+// var counter = 0;
+
+// myButton.addEventListener('click', function () {
+//   console.log('counter at line 40: ', counter);
+// add one line
+// counter = 2;
+// console.log('counter at line 43: ', counter);
+// don't change this
+
+//   myButton.textContent = counter;
+// });
+
+// make the counter add 2 every time btn is clicked
+
+// myButton.addEventListener('click', function(){
+
+// up by 2
+// counter += 2;
+// down by 1
+//   counter -= 1;
+
+//   myButton.textContent = counter;
+// })
+
+// 1st click is 10 then up in 5's
+
+var counter = 5;
 
 myButton.addEventListener('click', function () {
-  console.log('counter at line 40: ', counter);
-  // add one line
-  counter = 2;
-  console.log('counter at line 43: ', counter);
-  // don't change this
+  counter += 5;
 
   myButton.textContent = counter;
 });
