@@ -26,7 +26,22 @@ const headerText = document.getElementById('header-text');
 // });
 
 // make the button text equal the counter variable
-var counter = 456;
+
+// var counter = 456;
+// myButton.addEventListener('click', function () {
+//   myButton.textContent = counter;
+// });
+
+// add one line make button text 2
+
+var counter = 0;
+
 myButton.addEventListener('click', function () {
+  console.log('counter at line 40: ', counter);
+  // add one line
+  counter = 2;
+  console.log('counter at line 43: ', counter);
+  // don't change this
+
   myButton.textContent = counter;
 });
