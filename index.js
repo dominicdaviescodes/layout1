@@ -70,48 +70,30 @@
 
 // Challenge: Print out in your console 0 mississippi to 100 mississippi.
 
-// for(let i = 0; i < 101; i++) {
-//   console.log(i + ' mississippi');
-// }
-
 // print all these out.
 
 // const europe = ['Sweden', 'Norway', 'Bulgaria', 'France', 'Germany'];
-// for(let i = 0; i < europe.length; i++) {
-//   console.log(europe[i]);
-// }
-
-// console.log(europe[0]);
-// console.log(europe[1]);
-// console.log(europe[2]);
-// console.log(europe[3]);
-// console.log(europe[4]);
-// console.log(europe[5]);
 
 // print these
 
-const topLanguages = [
-  'Chinese',
-  'Spanish',
-  'English',
-  'Hindi',
-  'Arabic',
-  'Portugese',
-  'Bengali',
-  'Russian',
-  'Japanese',
-  'Lahnda',
-  'Javanese',
-  'German',
-  'Korean',
-  'French',
-  'Telugu',
-  'Turkish',
-  'Tamil',
-  'Vietnamese',
-  'Urdu',
-];
-
-for (let i = 0; i < topLanguages.length; i++) {
-  console.log(topLanguages[i]);
-}
+// const topLanguages = [
+//   'Chinese',
+//   'Spanish',
+//   'English',
+//   'Hindi',
+//   'Arabic',
+//   'Portugese',
+//   'Bengali',
+//   'Russian',
+//   'Japanese',
+//   'Lahnda',
+//   'Javanese',
+//   'German',
+//   'Korean',
+//   'French',
+//   'Telugu',
+//   'Turkish',
+//   'Tamil',
+//   'Vietnamese',
+//   'Urdu',
+// ];
