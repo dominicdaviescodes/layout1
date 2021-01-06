@@ -3,8 +3,8 @@
 // console.log(clickMe);
 
 // better naming
-var myButton = document.getElementById('btn');
-console.log(myButton);
+// var myButton = document.getElementById('btn');
+// console.log(myButton);
 
 // make button do something
 
@@ -17,7 +17,7 @@ console.log(myButton);
 
 // change h1 tag to say I'm learning js when btn is clicked
 // we  want id's when grabbing elements
-const headerText = document.getElementById('header-text');
+// const headerText = document.getElementById('header-text');
 
 // myButton.addEventListener('click', function () {
 // headerText.innerHTML = 'I\'m learning JavaScript';
@@ -60,10 +60,58 @@ const headerText = document.getElementById('header-text');
 
 // 1st click is 10 then up in 5's
 
-var counter = 5;
+// var counter = 5;
 
-myButton.addEventListener('click', function () {
-  counter += 5;
+// myButton.addEventListener('click', function () {
+//   counter += 5;
 
-  myButton.textContent = counter;
-});
+//   myButton.textContent = counter;
+// });
+
+// Challenge: Print out in your console 0 mississippi to 100 mississippi.
+
+// for(let i = 0; i < 101; i++) {
+//   console.log(i + ' mississippi');
+// }
+
+// print all these out.
+
+// const europe = ['Sweden', 'Norway', 'Bulgaria', 'France', 'Germany'];
+// for(let i = 0; i < europe.length; i++) {
+//   console.log(europe[i]);
+// }
+
+// console.log(europe[0]);
+// console.log(europe[1]);
+// console.log(europe[2]);
+// console.log(europe[3]);
+// console.log(europe[4]);
+// console.log(europe[5]);
+
+// print these
+
+const topLanguages = [
+  'Chinese',
+  'Spanish',
+  'English',
+  'Hindi',
+  'Arabic',
+  'Portugese',
+  'Bengali',
+  'Russian',
+  'Japanese',
+  'Lahnda',
+  'Javanese',
+  'German',
+  'Korean',
+  'French',
+  'Telugu',
+  'Turkish',
+  'Tamil',
+  'Vietnamese',
+  'Urdu',
+];
+
+for (let i = 0; i < topLanguages.length; i++) {
+  console.log(topLanguages[i]);
+}
