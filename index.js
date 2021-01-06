@@ -97,3 +97,20 @@
 //   'Vietnamese',
 //   'Urdu',
 // ];
+
+// print out even
+// const tableNumbers = [5, 14, 7, 10, 20, 11, 12, 15, 3];
+
+// for (let i = 0; i < tableNumbers.length; i++) {
+//   if (tableNumbers[i] % 2 === 0) {
+//     console.log(tableNumbers[i]);
+//   }
+// }
+// returns even numbers
+
+// Mini Challenge: We have decided to play a game between all of us. Create a loop that loops over the numbers given to each one of us. If the person has even number is even, print out the word 'blue team'. If it is odd, print out the word 'red team'.
+
+
+// example outputs
+// Person 1 is on the red team
+// Person 17 is on the red team

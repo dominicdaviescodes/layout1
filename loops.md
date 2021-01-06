@@ -113,3 +113,53 @@ for (let i = 0; i < topLanguages.length; i++) {
   console.log(topLanguages[i]);
 }
 ```
+
+## For Loops with if statements
+
+We are trying to find a table for my speed dating group to sit at, that is the most economical for the restaurant. How many options do I have?
+```js
+// print out even
+const tableNumbers = [5, 14, 7, 10, 20, 11, 12, 15, 3];
+
+for (let i = 0; i < tableNumbers.length; i++) {
+  if (tableNumbers[i] % 2 === 0) {
+    console.log(tableNumbers[i]);
+  }
+}
+// returns even numbers
+
+```
+
+Mini Challenge: We have decided to play a game between all of us. Create a loop that loops over the numbers given to each one of us. If the person has even number is even, print out the word 'blue team'. If it is odd, print out the word 'red team'.
+
+```js
+const people = 56;
+
+for (let i = 0; i < people; i++) {
+  if (people[i] % 2 === 0) {
+    console.log('Person ' + i + ' is on the blue team');
+  } else {
+    console.log('Person ' + i + ' is on the red team');
+  }
+}
+// example outputs
+// Person 1 is on the red team
+// Person 17 is on the red team
+//       BUT ALSO PRINTS
+// starts at 0 ends with Person 55 is on the red team
+```
+so
+
+now starts at 1 ends at 56
+```js
+const people = 56;
+
+for (let i = 1; i <= people; i++) {
+  if (people[i] % 2 === 0) {
+    console.log('Person ' + i + ' is on the blue team');
+  } else {
+    console.log('Person ' + i + ' is on the red team');
+  }
+}
+
+```
